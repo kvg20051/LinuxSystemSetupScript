@@ -93,7 +93,7 @@ install_packages() {
         # Security/network
         "wireguard-tools" "openssh-server"
         # Misc utilities
-        "unzip" "jq" "plocate" "neofetch" "mc" "git" "fuse" "libfuse2"
+        "unzip" "jq" "plocate" "neofetch" "mc" "git" "fuse" "libfuse2" "procps" "alpine"
     )
     
     local failed_packages=()
